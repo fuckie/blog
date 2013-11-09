@@ -122,7 +122,7 @@ grunt-init是个脚手架工具，它可以帮你完成项目的自动化创建�
 	drwxr-xr-x   4 root        staff   136  5  9 15:13 src
 	drwxr-xr-x   5 root        staff   170  5  9 15:13 test
 	
-从上面的目录结构，大致可以看出各个目录、文件的作用，其中我们需要注意的是两个文件Gruntfile.js、package.json，这两个文件都需要放在项目跟目录下。下面会稍微详细介绍到：
+从上面的目录结构，大致可以看出各个目录、文件的作用，其中我们需要注意的是两个文件Gruntfile.js、package.json，这两个文件都需要放在项目根目录下。下面会稍微详细介绍到：
 
 * **Gruntfile.js** 项目的Grunt配置信息，包括模块依赖、任务定义
 * **package.json** 项目node模块的依赖信息，主要根据Gruntfile生成
